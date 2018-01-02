@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>743</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="lsv_list">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>701</width>
+      <height>451</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>530</y>
+      <width>481</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="lay_btns"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>743</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptionen">
+    <property name="title">
+     <string>Optionen</string>
+    </property>
+    <addaction name="act_search"/>
+    <addaction name="act_logout"/>
+   </widget>
+   <addaction name="menuOptionen"/>
+  </widget>
+  <action name="act_logout">
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </action>
+  <action name="act_search">
+   <property name="text">
+    <string>Suchen</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
